@@ -1,11 +1,25 @@
-html {
-  font-family: 'Muli', sans-serif;
+h1 {
+  font-family: lust, serif;
 }
 
-h1 {
-  font-weight: 800;
+h3 {
+  font-family: lust, serif;
+}
+
+h6 {
+  font-family: lust, serif;
 }
 
 a {
   text-decoration: none;
+  font-family: kepler-std, serif;
+  color: #000;
+}
+
+p {
+  font-family: kepler-std, serif;
+}
+
+.title {
+  border-right: solid 2px #000;
 }
