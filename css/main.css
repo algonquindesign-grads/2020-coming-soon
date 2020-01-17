@@ -1,9 +1,18 @@
+html {
+  font-family: neuzeit-grotesk, sans-serif;
+}
+
 h1 {
   font-family: lust, serif;
 }
 
-h3 {
+h2 {
   font-family: lust, serif;
+}
+
+.title {
+  font-family: lust, serif;
+  padding-right: 0;
 }
 
 h6 {
@@ -12,14 +21,10 @@ h6 {
 
 a {
   text-decoration: none;
-  font-family: kepler-std, serif;
+  font-family: neuzeit-grotesk, sans-serif;
   color: #000;
 }
 
-p {
-  font-family: kepler-std, serif;
-}
-
-.title {
+.line {
   border-right: solid 2px #000;
 }
