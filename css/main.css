@@ -6,25 +6,52 @@ h1 {
   font-family: lust, serif;
 }
 
-h2 {
-  font-family: lust, serif;
-}
-
 .title {
-  font-family: lust, serif;
   padding-right: 0;
+  font-weight:
 }
 
-h6 {
-  font-family: lust, serif;
+h1:hover a {
+  background: -webkit-linear-gradient(#36D1DC, #5B86E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {
   text-decoration: none;
-  font-family: neuzeit-grotesk, sans-serif;
   color: #000;
 }
 
 .line {
-  border-right: solid 2px #000;
+  border-bottom: solid 4px #000;
+}
+
+.btn-ghost {
+  background-image: linear-gradient(to bottom right, #36D1DC, #ABE600);
+}
+
+.btn-ghost:hover {
+  background-image: linear-gradient(to bottom right, #36D1DC, #5B86E5)
+}
+
+.social-links > a {
+  color: #5B86E5;
+}
+
+.social-links:hover > a {
+  background-image: linear-gradient(to bottom right, #36D1DC, #5B86E5);
+  color: #000;
+  border-radius: 3px;
+}
+
+.grad-show-loc-link:hover > p {
+  color: #5B86E5;
+}
+
+@media only screen and (min-width: 36em) {
+
+  .line {
+    border-right: solid 4px #000;
+    border-bottom: 0px;
+  }
 }
